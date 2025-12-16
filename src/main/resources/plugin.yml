@@ -1,0 +1,17 @@
+name: GoldCurrency
+version: 1.3
+main: com.yourname.goldcurrency.GoldCurrencyPlugin
+api-version: 1.21
+commands:
+  pay:
+    description: 다른 플레이어에게 돈을 보냅니다.
+    usage: /pay <플레이어> <금액>
+  withdraw:
+    description: 돈을 실물 아이템으로 인출합니다.
+    usage: /withdraw <금액>
+  shop:
+    description: 서버 상점을 엽니다.
+    usage: /shop [add|reset]
+  lost:
+    description: 부활 후 받지 못한 아이템을 수령합니다.
+    usage: /lost
